@@ -14,10 +14,13 @@ function usage is documented in the source files.
 
 # Usage
 
-To use `pandas_pareto`, copy the package directory into your project
-and use:
+You can install the package via setuptools as usual, and it will be
+available as `pandas_pareto` for import.
 
-	from pandas_pareto.pareto import compute_pareto
+	python setup.py install
+
+Otherwise, you can copy the package directory `pandas_pareto` into
+your project and import it from your files.
 
 
 # Tips
