@@ -72,6 +72,7 @@ def pareto(df, comp_better, comp_worse):
             # whether j dominates i.
             if _df_i_dominates_j(df, j, i, comp_better, comp_worse):
                 nondominated = False
+                break
         if nondominated:
             index_list.append(df.index[i])
     return index_list
